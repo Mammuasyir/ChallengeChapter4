@@ -3,4 +3,7 @@
     <string name="pemain_1">Pemain 1</string>
     <string name="com">Com</string>
     <string name="vs">VS</string>
+    <string name="result_com_win">Com MENANG!</string>
+    <string name="result_draw">Draw</string>
+    <string name="result_player_win">Pemain 1 MENANG!</string>
 </resources>

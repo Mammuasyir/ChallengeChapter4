@@ -8,19 +8,19 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@mipmap/logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:id="@+id/ivRefresh"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_margin="20dp"
-        app:srcCompat="@mipmap/refresh"
+        app:srcCompat="@drawable/refresh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
@@ -28,7 +28,7 @@
         android:id="@+id/llPemain1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="-70dp"
         android:gravity="center"
         android:orientation="vertical"
@@ -46,29 +46,45 @@
             android:textStyle="bold"
             android:textSize="25sp" />
 
-
+        <FrameLayout
+            android:id="@+id/flKertasPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivKertasPemain1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/kertas" />
+                android:src="@drawable/kertas"/>
+        </FrameLayout>
 
 
+        <FrameLayout
+            android:id="@+id/flBatuPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivBatuPemain1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/batu" />
+                android:src="@drawable/batu"/>
+        </FrameLayout>
 
-
+        <FrameLayout
+            android:id="@+id/flGuntingPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivGuntingPemain1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/gunting" />
+                android:src="@drawable/gunting" />
+        </FrameLayout>
 
     </LinearLayout>
 
@@ -94,27 +110,44 @@
             android:textStyle="bold"
             android:textSize="25sp" />
 
+        <FrameLayout
+            android:id="@+id/flKertasCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivKertasCom"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/kertas" />
+                android:src="@drawable/kertas" />
+        </FrameLayout>
 
-
+        <FrameLayout
+            android:id="@+id/flBatuCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivBatuCom"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/batu" />
+                android:src="@drawable/batu" />
+        </FrameLayout>
 
+        <FrameLayout
+            android:id="@+id/flGuntingCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
             <ImageView
                 android:id="@+id/ivGuntingCom"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/gunting" />
+                android:src="@drawable/gunting" />
+        </FrameLayout>
 
     </LinearLayout>
 
@@ -127,7 +160,7 @@
         android:text="@string/vs"
         android:textStyle="bold"
         android:textColor="@color/red"
-        android:textSize="60sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@id/ivRefresh"
         app:layout_constraintLeft_toRightOf="@id/llPemain1"
         app:layout_constraintRight_toLeftOf="@id/llCom"
