@@ -6,4 +6,12 @@
     <string name="result_com_win">Com MENANG!</string>
     <string name="result_draw">Draw</string>
     <string name="result_player_win">Pemain 1 MENANG!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="judul_landing_page1">Bermain suit melawan sesama pemain</string>
+    <string name="judul_landing_page2">Bermain suit melawan komputer</string>
+    <string name="judul_landing_page3">Tuliskan namamu dibawah</string>
+    <string name="hint_landing_page3">Nama Kamu</string>
+    <string name="btn_setname">Save</string>
+    <string name="text_error_toast_name_empty">Nama tidak boleh kosong</string>
 </resources>

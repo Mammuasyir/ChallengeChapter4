@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DisplayGame">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCLose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        android:src="@drawable/close"/>
+
+    <ImageView
+        android:id="@+id/ivRefresh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/refresh" />
+
+    <LinearLayout
+        android:id="@+id/llPemain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-70dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/ivRefresh"
+        app:layout_constraintBottom_toTopOf="@id/ivRefresh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo">
+
+        <TextView
+            android:id="@+id/tvPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pemain_1"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/flKertasPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivKertasPemain1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kertas" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/flBatuPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivBatuPemain1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/batu" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flGuntingPemain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivGuntingPemain1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gunting" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMusuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/ivRefresh"
+        app:layout_constraintBottom_toTopOf="@id/ivRefresh"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo">
+
+        <TextView
+            android:id="@+id/tvMusuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/com"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/flKertasMusuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivKertasMusuh"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kertas" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flBatuMusuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivBatuMusuh"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/batu" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flGuntingMusuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            tools:background="@drawable/bg_action_button">
+
+            <ImageView
+                android:id="@+id/ivGuntingMusuh"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gunting" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:rotation="-20"
+        android:text="@string/vs"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/ivRefresh"
+        app:layout_constraintLeft_toRightOf="@id/llPemain1"
+        app:layout_constraintRight_toLeftOf="@id/llMusuh"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

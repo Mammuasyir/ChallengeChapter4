@@ -8,7 +8,17 @@
         <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/drawable/gunting.xml" value="0.1115" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/drawable/kertas.xml" value="0.1115" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/drawable/refresh.xml" value="0.1115" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_display_game.xml" value="0.1171875" />
         <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_menu_game.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_player_vs_com.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_player_vs_player.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/activity_splash_screen.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/fragment_landing_page1.xml" value="0.18" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/fragment_landing_page2.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/fragment_landing_page3.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/fragment_pemenang_dialog.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/Pro/AndroidStudioProjects/ChallengeChapter4/app/src/main/res/layout/layout_custom_dialog.xml" value="0.22" />
       </map>
     </option>
   </component>
