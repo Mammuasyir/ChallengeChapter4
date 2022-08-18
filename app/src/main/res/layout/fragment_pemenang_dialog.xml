@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="70dp"
+    >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Hasil Permainan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPemenang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=".............."
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="@id/tvTitle"
+        app:layout_constraintRight_toRightOf="@id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENANG"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="@id/tvPemenang"
+        app:layout_constraintRight_toRightOf="@id/tvPemenang"
+        app:layout_constraintTop_toBottomOf="@id/tvPemenang" />
+
+    <Button
+        android:id="@+id/btnUlang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:text="Main Lagi"
+        android:textSize="18sp"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintLeft_toLeftOf="@id/tvHasil"
+        app:layout_constraintRight_toRightOf="@id/tvHasil"
+        app:layout_constraintTop_toBottomOf="@id/tvHasil" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+        android:text="Kembali ke Menu"
+        android:backgroundTint="@color/Oren"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/btnUlang" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
